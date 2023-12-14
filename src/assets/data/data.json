@@ -1,0 +1,42 @@
+{
+	"name": "Jhon Anderssen",
+	"backImage": "https://jndrssn.github.io/img/yan-blanco-pier002.jpg",
+    "image": "https://jndrssn.github.io/img/Logo.png",
+	"position": "Soporte IT",
+	"company": {
+		"name": "Argentina Programa",
+		"img": "https://jndrssn.github.io/img/terminal-fill.svg",
+		"url": "#"
+	},
+	"ubication": "Buenos Aires (Argentina)",
+	"about": "Matemático, físico e informático",
+	"experiencie": [{
+		"position": "Soporte IT",
+		"company": "Tecnobrain",
+		"img": "https://jndrssn.github.io/img/terminal-fill.svg",
+		"mode": "Jornada parcial",
+		"starts": "mar 2019",
+		"end": "actualidad",
+		"timelapsed": "2 años y 6 meses"
+	}],
+	"education": [{
+			"school": "UTN",
+			"title": "Ingenieria",
+			"img": "#",
+			"career": "Sistemas de Computación",
+			"score": 0,
+			"start": "2014",
+			"end": "2018"
+		},
+		{
+			"school": "UTN",
+			"title": "Ingenieria",
+			"img": "#",
+			"career": "Sistemas de Computación",
+			"score": 0,
+			"start": "2014",
+			"end": "2018"
+		}
+	]
+
+}

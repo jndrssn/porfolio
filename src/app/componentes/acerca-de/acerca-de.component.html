@@ -1,0 +1,18 @@
+<div class="mat-card  shadow">
+  <img id="img-portada" src="../../../assets/Portada.jpg" class="img-fluid profile-background" />
+  <div id="info-img">
+    <img class="rounded-circle profile-image align-items-center" src="{{ persona.img }}" alt="Foto de perfil" />
+    <a routerLink="/editacercade/1" *ngIf="isLogged" class="flush-collapse Two text-dark text-decoration-none">
+      <i class="fa fa-pen" aria-hidden="true"></i>
+    </a>
+
+  </div>
+  <div id="info-data" class="d-flex justify-content-between">
+    <div class="p-2">
+      <h1>{{ persona.nombre }} {{ persona.apellido }}</h1>
+      <h5><strong>{{ persona.descripcion }}</strong></h5>
+      <span><a href="mailto:janderssen@protonmail.com" class="text-decoration-none text-align link-dark">
+          janderssen@protonmail.com</a></span>
+    </div>
+  </div>
+</div>

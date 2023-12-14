@@ -1,0 +1,42 @@
+<div class="card mat-card shadow">
+  <div class="row">
+
+    <h1>Educación</h1>
+
+    <div class="col-lg-2">
+      <button type="button" class="btn btn-outline-success btn-light shadow position-absolute top-0 start-50 translate-middle"
+        routerLink="/nuevaedu" *ngIf="isLogged">
+        + Agregar educación
+      </button>
+    </div>
+
+
+     <div class="col-lg-md-sd">
+      <table class="table">
+        <tbody>
+          <tr *ngFor="let Educacion of educacion">
+            <td>
+              <h5>{{Educacion.nombreE}}</h5>
+            </td>
+            <td>{{Educacion.descripcionE}}</td>
+            <br>
+            <td>{{Educacion.dateE}}</td>
+
+            <td *ngIf="isLogged">
+              <button class="btn btn-ligh" routerLink="/editedu/{{Educacion.id}}"><i class="fa fa-pen"></i>
+              </button> 
+              </td>
+
+            <td *ngIf="isLogged">
+              <button class="btn btn-light shadow" (click)="delete(Educacion.id)">
+                <i class="bi bi-trash-fill"></i></button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div> 
+
+  
+
+
+
+  </div>

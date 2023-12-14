@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand-sm sticky-top">
+  
+  
+  <div class="container-fluid">
+    <a class="navbar-brand" href="https://github.com/jndrssn"><i class="fa-solid fa-code"></i> Jhon Anderssen</a>
+    <ul class="nav nav-pills align-items-center icon-bar">
+      
+      <div class="redes">
+        <button type="button" class="btn btn btn-dark shadow  pulse" (click)="login()" *ngIf="!isLogged">Login</button>
+        <button type="button" class="btn btn btn-dark shadow  pulse" (click)="onLogOut()" *ngIf="isLogged">Logout</button>
+      </div>
+    </ul>
+    
+  </div>
+</nav>

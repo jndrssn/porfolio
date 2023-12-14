@@ -1,0 +1,12 @@
+.row{
+    padding: 20px;
+}
+
+
+h1, h3{
+    display: inline;
+}
+
+.mat-card{
+    border-radius: 20px;
+}

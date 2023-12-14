@@ -1,0 +1,19 @@
+.row{
+    padding: 0px;
+}
+
+img#img-portada {
+    
+    border-radius: 20px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.25);
+    
+}
+
+.mat-card{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 18px;

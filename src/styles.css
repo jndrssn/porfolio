@@ -1,0 +1,51 @@
+
+
+
+.mat-card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    max-width: 850px;
+    padding: 25px;
+    border-color: rgb(255, 255, 255);
+   
+}
+
+.profile-image {
+    width: 170px;
+    height: 170px;
+    margin-top: -110px;
+    margin-left: 20px;
+    z-index: 0;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.911);
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin: .5em .3em;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(120, 128, 204);
+    width: 30px;
+    height: 30px;
+    line-height: 30px !important;
+}
+
+
+div#trabajo-estudios h2 {
+    font-size: 18px;
+}
+
+div#trabajo-estudios {
+    margin-block-end: auto;
+}
+
+div#footer{
+    margin-top: 2%;
+}
+
+
+

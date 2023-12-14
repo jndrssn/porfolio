@@ -1,0 +1,31 @@
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <div class="card bg-light text-dark shadow" style="border-radius: 1rem;">
+                    <div class="card-body p-5 text-center">
+                        <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                            <div class="form-group">
+                                <label for="nombreP">Nombre del Proyecto</label>
+                                <input type="text" class="form-control" id="nombreP" name="nombreP" [(ngModel)]="proyecto.nombreP" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="descripcionP">Descripción</label>
+                                <textarea type="text" class="form-control" id="descripcionP" name="descripcionP" [(ngModel)]="proyecto.descripcionP" required>
+                                </textarea>
+                                </div>
+                            <div class="form-group">
+                                <label for="descripcionP">URL de la imagen</label>
+                                <input type="text" class="form-control" id="img" name="img" [(ngModel)]="proyecto.img" required>
+                            </div>
+                            <br>
+                            <button class="btn btn-outline-dark shadow">
+                                Modificar proyecto
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
