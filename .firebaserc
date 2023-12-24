@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "frontend-janderssen"
-  }
+    "default": "porfolio-fb720",
+    "staging": "porfolio-fb720"
+  },
+  "targets": {},
+  "etags": {}
 }
